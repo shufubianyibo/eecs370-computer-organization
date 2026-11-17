@@ -1,0 +1,58 @@
+[
+  {
+    "name": "starter_1a",
+    "source_files": 21,
+    "source_lines_including_scaffolding": 506,
+    "origin": null,
+    "snapshot_commit": null,
+    "file_count": 24
+  },
+  {
+    "name": "starter_1s",
+    "source_files": 12,
+    "source_lines_including_scaffolding": 285,
+    "origin": null,
+    "snapshot_commit": null,
+    "file_count": 14
+  },
+  {
+    "name": "starter_2a",
+    "source_files": 21,
+    "source_lines_including_scaffolding": 631,
+    "origin": null,
+    "snapshot_commit": null,
+    "file_count": 26
+  },
+  {
+    "name": "starter_2l",
+    "source_files": 20,
+    "source_lines_including_scaffolding": 441,
+    "origin": null,
+    "snapshot_commit": null,
+    "file_count": 24
+  },
+  {
+    "name": "starter_3",
+    "source_files": 17,
+    "source_lines_including_scaffolding": 569,
+    "origin": null,
+    "snapshot_commit": null,
+    "file_count": 18
+  },
+  {
+    "name": "starter_4",
+    "source_files": 21,
+    "source_lines_including_scaffolding": 395,
+    "origin": null,
+    "snapshot_commit": null,
+    "file_count": 22
+  },
+  {
+    "name": "assembly-exercises",
+    "source_files": 2,
+    "source_lines_including_scaffolding": 24,
+    "origin": null,
+    "snapshot_commit": null,
+    "file_count": 2
+  }
+]
