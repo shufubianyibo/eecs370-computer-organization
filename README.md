@@ -4,7 +4,25 @@ C and LC-2K assembly: assemblers, linker, instruction simulation, pipelining, an
 
 Coursework portfolio of **Han Sun ([shufubianyibo](https://github.com/shufubianyibo))**. This repository collects source snapshots from local projects so they can be browsed directly from my personal GitHub profile.
 
-## Projects
+## Main projects
+
+### [LC-2K cache simulator — Project 4](starter_4/)
+
+A configurable cache layer for LC-2K memory accesses, with adjustable block size, set count, and associativity. The implementation tracks valid and dirty blocks, uses LRU replacement, fills blocks on misses, and writes dirty victims back to memory. Assembly test cases target alignment, conflicts, replacement order, and write-back behavior.
+
+Read [`cache.c`](starter_4/cache.c) alongside the `.as` tests. This component links against the course simulator interface; the Makefile identifies the external object dependency required to run it.
+
+### [Cycle-by-cycle pipeline simulator — Project 3](starter_3/)
+
+A C implementation of an LC-2K instruction pipeline with explicit stage registers and separate current/next machine states. It models instruction movement through the pipeline, data forwarding, load-use stalls, and branch handling, making the timing consequences of instruction dependencies visible in the execution trace.
+
+The implementation is [`simulator.c`](starter_3/simulator.c); the surrounding assembly programs exercise dependent instructions and control flow.
+
+### [Assembler and linker toolchain — Projects 1 and 2](starter_2a/)
+
+The [initial assembler](starter_1a/) and [instruction simulator](starter_1s/) establish instruction encoding and execution. The [object-file assembler](starter_2a/assembler.c) and [linker](starter_2l/linker.c) extend the workflow with symbol tables, relocation records, and references across separately assembled files. Test inputs include undefined symbols, duplicate labels, offsets, and multi-file references.
+
+## All projects
 
 | Project | Source files |
 | --- | ---: |
